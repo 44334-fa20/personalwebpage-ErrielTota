@@ -1,1 +1,58 @@
 /*Personal Web Page Style Sheet */
+body {
+  background-color:lightgray;
+}
+* {
+  box-sizing: border-box;
+}
+ul.list{
+  font-weight: bold;
+  color: dimgrey;
+  
+  
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 { 
+    text-align: center;
+    background-color:gainsboro;
+    font-family:monospace;
+    color: dimgray;
+}
+h2 {
+    text-align: center;
+    background-color: gainsboro;
+    font-family: monospace;
+    color: dimgray;    
+}
+h3 {
+    text-align: center;
+    background-color: gainsboro;
+    font-family: monospace;
+    color:dimgray;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+a:visited{
+    color:lightpink;
+}
+a:hover{
+    color: beige;
+}
+a:active{
+    color:dodgerblue
+}
